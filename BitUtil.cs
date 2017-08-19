@@ -6,9 +6,9 @@
  */
 
 /// <summary>
-/// 操作位工具
+/// 用于操作位
 /// </summary>
-public class BitUtils
+public class BitUtil
 {
     /// <summary>
     /// 掩码
