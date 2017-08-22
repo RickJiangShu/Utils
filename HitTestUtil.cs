@@ -26,7 +26,7 @@ public class HitTestUtil
     public static bool RangePlane(Vector3 self, Vector3 target, float radius)
     {
         float dx = self.x - target.x;
-        float dy = self.y - target.y;
+        float dy = self.z - target.z;
         return Mathf.Sqrt(dx * dx + dy * dy) < radius;
     }
 }
