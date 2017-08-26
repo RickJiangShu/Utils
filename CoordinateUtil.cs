@@ -32,7 +32,7 @@ public class CoordinateUtil
     {
         float w = canvas.rect.width * 0.5f;
         float h = canvas.rect.height * 0.5f;
-        Vector3 viewport = new Vector3((position.x / w + 1f) / 2, (position.y / h + 1f) / 2, position.z);
+        Vector3 viewport = new Vector3((position.x / w + 1f) / 2, (position.y / h + 1f) / 2, 0f);
         return camera.ViewportToWorldPoint(viewport);
     }
 }
